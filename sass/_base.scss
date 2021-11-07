@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Carattere&display=swap);
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: $base-font-size;
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: $primary;
+  border-radius: $base-border-radius;
+  padding: $base-padding;
+}
+
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
+}
+
+.notification {
+  color: $secondary;
+  border-color: $secondary;
+  border-style: solid;
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.disable {
+  background: #dddddd;
+  pointer-events: none;
+}
+
+.font-1 {
+  font-family: Roboto, sans-serif;
+}
+
+.font-2 {
+  font-family: Archivo, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}

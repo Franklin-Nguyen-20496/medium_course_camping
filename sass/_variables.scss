@@ -1,0 +1,70 @@
+@use "sass:math";
+// theme color
+$textColor: #3b3735;
+$background: #fff;
+$primary: #326dee;
+$secondary: #1ac888;
+$error: #d32752;
+$info: #f6c31c;
+$topic: #e76f51;
+$gray: #8d8d8d;
+$dark: #3b3735;
+$light: #d2d2d2;
+$pink: #ffd2c6;
+$less-pink: #faf4f2;
+
+// color palette
+$color: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "error": $error,
+  "info": $info,
+  "blue": #1919e6,
+  "red": #e61919,
+  "yellow": #e6e619,
+  "green": #19e635,
+  "orange": #ffb63b,
+  "purple": #9900ff,
+  "topic": #e76f51,
+  "pink": $pink,
+  "gray": #8d8d8d,
+  "dark": #3b3735,
+  "light": #d2d2d2,
+  "black": black,
+  "white": white,
+);
+
+// btn color button
+$topic_colors: (
+  "topic": #e76f51,
+  "less-pink": $less-pink,
+  "gray": #8d8d8d,
+  "pink": $pink,
+  "dark": #3b3735,
+  "light": #d2d2d2,
+  "black": black,
+  "white": white,
+);
+
+// Spacing
+$base-padding: 0.8rem;
+$base-margin: 0.8rem;
+
+// Border
+$base-border-thickness: 1px;
+$base-border-radius: 14px;
+
+// Box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+// font size
+$base-font-size: 1.6rem;
+$font-size-lg: 1.8rem;
+$font-size-xl: 3rem;
+$font-size-xxl: 4rem;
+$font-size-xxxl: 4.5rem;
+$font-size-big: 8.1rem;
+
+// line height
+
+$base-line-height: 2.8rem;
