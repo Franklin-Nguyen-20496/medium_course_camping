@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <!-- <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="app" class="app bg-less-pink">
+
+        <div id="intro" class="intro">
+
+            <div class="body__container">
+                <div class="intro__header header">
+
+                    <div class="header__left">
+                        <a href="#" class="header__left--btn btn-click  btn-icon-hover br-full bg-topic text-white">
+                            <p class="btn fs-24 header__left--logo">T</p>
+                        </a>
+    
+                        <ul class="header__left--container d-none d-sm-flex">
+                            <li class="header__left--item">
+                                <a href="#" class="header__left--link active text-white fs-18 "><p class="header__left--p">Home</p></a>
+                            </li>
+                            <li class="header__left--item">
+                                <a href="#" class="header__left--link text-light fs-18 "><p class="header__left--p">Destination</p></a>
+                            </li>
+                            <li class="header__left--item">
+                                <a href="#" class="header__left--link text-light fs-18 "><p class="header__left--p">Near me</p></a>
+                            </li>
+                            <li class="header__left--item d-sm-none d-md-block">
+                                <a href="#" class="header__left--link text-light fs-18 "><p class="header__left--p">Events</p></a>
+                            </li>
+                            <li class="header__left--item d-sm-none d-md-block">
+                                <a href="#" class="header__left--link text-light fs-18 "><p class="header__left--p">Block</p></a>
+                            </li>
+                            <li class="header__left--item d-sm-none d-lg-block">
+                                <a href="#" class="header__left--link text-light fs-18 "><p class="header__left--p">Gallery</p></a>
+                            </li>
+                            <li class="header__left--item d-sm-none d-lg-block">
+                                <a href="#" class="header__left--link text-light fs-18 "><p class="header__left--p">About</p></a>
+                            </li>
+                            <li class="header__left--item d-sm-none d-xl-block">
+                                <a href="#" class="header__left--link text-light fs-18 "><p class="header__left--p">Contact us</p></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="header__right">
+                        <div class="header__right--responsive d-xxl-none">
+                            <a href="#" class="header__right--icon btn-click bg-white text-topic br-20">
+                                <i class="fa-solid fa-bars fs-24"></i>
+                            </a>
+    
+                            <div class="header__right--backdrop d-none"></div>
+                        </div>
+    
+                        <ul class="header__right--container d-none d-xxl-flex">
+                            <li class="header__right--item header__right--item1">
+                                <a href="#" class="btn-slide btn-click fs-18 fw-500 text-white br-25 text-center pr-3 pl-3 mr-2"><p>Sign up</p></a>
+                            </li>
+                            <li class="header__right--item header__right--item2">
+                                <a href="#" class="btn-slide btn-click fs-18 fw-500 text-white br-25 text-center pr-3 pl-3"><p>Sign in</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <ul class="header__responsive d-xxl-none">
+                        <div class="header__responsive--box d-xl-none pt-1 pb-1 ">
+                            <li class="header__resonsive--item d-sm-none">
+                                <a href="#" class="header__resonsive--link fs-18 text-white ">Home</a>
+                            </li>
+                            <li class="header__resonsive--item d-sm-none">
+                                <a href="#" class="header__resonsive--link fs-18 text-light ">Destination</a>
+                            </li>
+                            <li class="header__resonsive--item d-sm-none">
+                                <a href="#" class="header__resonsive--link fs-18 text-light ">Near me</a>
+                            </li>
+                            <li class="header__resonsive--item 
+                            d-md-none">
+                                <a href="#" class="header__resonsive--link fs-18 text-light ">Events</a>
+                            </li>
+                            <li class="header__resonsive--item d-md-none">
+                                <a href="#" class="header__resonsive--link fs-18 text-light ">Block</a>
+                            </li>
+                            <li class="header__resonsive--item d-lg-none">
+                                <a href="#" class="header__resonsive--link fs-18 text-light ">Gallery</a>
+                            </li>
+                            <li class="header__resonsive--item d-lg-none">
+                                <a href="#" class="header__resonsive--link fs-18 text-light ">About</a>
+                            </li>
+                            <li class="header__resonsive--item">
+                                <a href="#" class="header__resonsive--link fs-18 text-light ">Contact us</a>
+                            </li>
+                        </div>
+                        
+                        <div class="header__responsive--box pt-1 pb-1">
+                            <li class="header__responsive--item header__responsive--item1">
+                                <a href="#" class="header__resonsive--link fs-18 fw-500 text-light text-center">Sign up</a>
+                            </li>
+                            <li class="header__responsive--item header__responsive--item2">
+                                <a href="#" class="header__resonsive--link fs-18 fw-500 text-light text-center">Sign in</a>
+                            </li>
+                        </div>
+    
+                    </ul>    
+    
+                </div>
+    
+                <div class="intro__content">
+                    <h1 class="text-white text-center font-2 fs-45 fs-md-64 fs-xl-81 mb-2">Find Yourself
+                        Outside.</h1>
+                    <p class="text-white text-center fs-18 mb-2 lin-hei-28">Book unique camping experiences on over 300,000 campsites, cabins, RV parks, public parks and more.</p>
+    
+                    <a href="#" class="btn-comp-topic btn btn-click  fs-18 fw-500 text-white br-25 text-center pr-4 pl-4">Discover</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="body__container bg-less-pink">
+
+            <div id="services" class="services">
+
+                <div class="services__container row gap-20 gap-xxl-30 br-20">
+                    <div class="services__item col-12 col-md-6 col-xl-3">
+                        <div class="services__item">
+                            <a href="#" class="services__item--container bg-white  br-20 text-dark">
+                                <img class="services__item--img mb-2 pb-1" src="./assets/img/bonfire-1.png" alt="">
+                                <h1 class="services__item-title text-center fs-18 font-2 fw-900 mb-1">Camping & Day Use</h1>
+                                <p class="services__item--body text-center fs-16 fw-400 mr-2 ml-2 lin-hei-28">Return to your favorite spot or discover a new one that’s right for you.</p>
+                            </a>
+                        </div>
+                    </div>
+
+                <div class="services__item col-12  col-md-6 col-xl-3">
+                        <a href="#" class="services__item--container bg-white  br-20 text-dark">
+                            <img class="services__item--img mb-2 pb-1" src="./assets/img/Group 203.png" alt="">
+                            <h1 class="services__item-title text-center fs-18 font-2 fw-900 fw-500 mb-1">Tours & Tickets</h1>
+                            <p class="services__item--body text-center fs-16 fw-400 mr-2 ml-2 lin-hei-28">Reserve tours and tickets to participate in events.</p>
+                        </a>
+                    </div>
+
+                <div class="services__item col-12  col-md-6 col-xl-3">
+                        <a href="#" class="services__item--container bg-white  br-20 text-dark">
+                            <img class="services__item--img mb-2 pb-1" src="./assets/img/Group 3000.png" alt="">
+                            <h1 class="services__item-title text-center fs-18 font-2 fw-900 fw-500 mb-1">Permits</h1>
+                            <p class="services__item--body text-center fs-16 fw-400 mr-2 ml-2 lin-hei-28">Obtain permits for access to high-demand locations.</p>
+                        </a>
+                    </div>
+
+                <div class="services__item col-12  col-md-6 col-xl-3">
+                        <a href="#" class="services__item--container bg-white  br-20 text-dark">
+                            <img class="services__item--img mb-2 pb-1" src="./assets/img/fishing-1.png" alt="">
+                            <h1 class="services__item-title text-center fs-18 font-2 fw-900 fw-500 mb-1">Recreation Activities</h1>
+                            <p class="services__item--body text-center fs-16 fw-400 mr-2 ml-2 lin-hei-28">Find the best spots for hunting, fishing & recreational shooting.</p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div id="destinations" class="destinations bg-less-pink">
+                <div class="destinations__header">
+                    <img src="./assets/img/Group 313.png" alt="" class="destinations__header--img">
+                    <h2 class="destinations__header--title text-center fs-30 fs-lg-40 font-2">Explore Destinations & Activities</h2>
+                </div>
+
+                <div class="destinations__body row gap-20 gap-md-30">
+
+                    <div class="col-md-6 col-lg-4 col-xxl-3 col-12">
+                        <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-15.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-outlined.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500  br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xxl-3 col-12">
+                        <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-1.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-filled.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xxl-3 col-12">
+                        <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-2.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-outlined.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xxl-3 col-12">
+                        <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-3.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-filled.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinations__item--2 d-none d-md-block col-12 col-md-6 col-lg-4 col-xxl-3">
+                       <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-4.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-filled.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinations__item--2 d-none d-md-block col-12 col-md-6 col-lg-4 col-xxl-3">                    <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-5.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-outlined.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinations__item--2 d-none d-md-block col-12 col-md-6 col-lg-4 col-xxl-3">
+                        <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-6.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-outlined.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinations__item--2 d-none d-md-block col-12 col-md-6 col-lg-4 col-xxl-3">                   
+                        <div class="destinations__item  br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-7.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-filled.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinations__item--2 d-none d-md-block col-12  col-md-6 col-lg-4 col-xxl-3">
+                        <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-8.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-outlined.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinations__item--2 d-none d-md-block col-12 col-md-6 col-lg-4 col-xxl-3">
+                         <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-9.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-filled.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinations__item--2 d-none d-md-block col-12  col-md-6 col-lg-4 col-xxl-3">
+                        <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-10.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-outlined.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinations__item--2 d-none d-md-block col-12 col-md-6 col-lg-4 col-xxl-3">
+                         <div class="destinations__item   br-20 bg-white">
+                            <div class="destinations__item--img br-20" style="background-image: url('./assets/img/zach-betten-K-11.jpg');">
+                                <div class="destinations__item--icon btn-click bg-white br-14">
+                                    <img src="./assets/img/heart-filled.png" alt="" class="">
+                                </div>
+                                <a class="destinations__item--price text-center btn br-14 fs-16 fw-500 text-topic pl-4 pr-4">$36/night</a>
+                            </div>
+                            <div class="destinations__item--body">
+                                <div>
+                                    <h2 class="destinations__item--title text-center font-2 fs-18 mb-1">
+                                        Trickle Creek Ranch
+                                    </h2>
+                                    <p class="destinations__item--description text-center">
+                                        Book unique camping experiences on over 300,000 campsites.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn destinations__item--btn fs-18 btn-slide text-dark fw-500 br-25 text-center pr-4 pl-4"><p>Read More</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <a href="#" class="destinations__btn btn btn-hover-bg-topic fs-18 text-center text-topic br-25 fw-500 pl-3 pr-3">View all</a>
+
+            </div>
+
+            <div id="contact" class="contact br-20 bg-pink">
+                <div class="contact__header">
+                    <img src="./assets/img/Group 316.png" alt="" class="contact__header--img">
+                </div>
+
+                <div class="contact__body text-dark">
+                    <h1 class="contact__body--title text-center font-2 fs-40 mb-3">Let's Stay in Touch</h1>
+                    <p class="contact__body--description fs-16 fw-500 text-center mb-2 lin-hei-28">Get travel planning ideas, helpful tips, and stories from our visitors delivered right to your inbox.</p>
+                    <form class="contact__body--form bg-white br-20">   
+                            <label for="email" class="btn-hover-scale"> <img class="ml-2" src="./assets/img/letter.png" alt=""></img></label>
+
+                            <input type="text" class="fs-14 ml-1" name="email" id="email" placeholder="Email address">
+
+                            <button type="button" class="contact__body--btn btn-click btn btn-hover-scale bg-topic text-topic br-20 ml-1 mr-2">
+                                <img src="./assets/img/plane.png" alt="">
+                            </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="footer" class="footer bg-pink mt-3">
+            <div class="body__container footer__container pt-5">
+                <div class="footer__box">
+                    <div class="footer__description footer__item">
+                        <h1 class="footer__description--title fs-18 font-2 mb-2">Hipcamp is everywhere you want to camp.</h1>
+    
+                        <p class="fs-16 mb-2 lin-hei-28">Discover unique experiences on ranches, nature preserves, farms, vineyards, and public campgrounds across the U.S. Book tent camping, treehouses, cabins, yurts, primitive backcountry sites, car camping, airstreams, tiny houses, RV camping, glamping tents and more.</p>
+    
+                        <div class="footer__app d-none d-lg-block">
+                            <h2 class="footer__app--tittle font-2 mb-2">
+                                Download Our App
+                            </h2>
+                            <div class="footer__app--download">
+                                <a href="#" class="footer__app--item">
+                                    <img src="./assets/img/download-on-the-app-store-apple-2.png" alt="">
+                                </a>
+        
+                                <a href="#" class="footer__app--item">
+                                    <img src="./assets/img/google-play-badge.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="footer__navigation footer__item">
+                        <div class="footer__navigation--item mb-3 mr-2">
+                            <h1 class="footer__navigation--title font-2 fs-18 mb-2">
+                                Get to Know Us
+                            </h1>
+    
+                            <ul class="footer__navigation--list fs-16 lin-hei-28">
+                                <li><a href="#" class="text-dark">About Us</a></li>
+                                <li><a href="#" class="text-dark">Rules & Reservation</a></li>
+                                <li><a href="#" class="text-dark">Policies</a></li>
+                                <li><a href="#" class="text-dark">Accessibility</a></li>
+                                <li><a href="#" class="text-dark">Media Center</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="footer__navigation--item mb-3 mr-2">
+                            <h1 class="footer__navigation--title font-2 fs-18 mb-2">
+                                Plan with Us
+                            </h1>
+    
+                            <ul class="footer__navigation--list fs-16 lin-hei-28">
+                                <li><a href="#" class="text-dark">Find Trip Inspiration</a></li>
+                                <li><a href="#" class="text-dark">Build a Trip</a></li>
+                                <li><a href="#" class="text-dark">Buy a Pass</a></li>
+                                <li><a href="#" class="text-dark">Enter a Lottery</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__navigation--item mr-2">
+                            <h1 class="footer__navigation--title font-2 fs-18 mb-2">
+                                Let Us Help You
+                            </h1>
+    
+                            <ul class="footer__navigation--list fs-16 lin-hei-28">
+                                <li><a href="#" class="text-dark">Your Account</a></li>
+                                <li><a href="#" class="text-dark">Your Reservations</a></li>
+                                <li><a href="#" class="text-dark">Contact Us</a></li>
+                                <li><a href="#" class="text-dark">Help Center</a></li>
+                            </ul>
+                        </div>
+    
+                    </div>
+    
+                    <div class="footer__app footer__item d-block d-lg-none">
+                        <h2 class="footer__app--tittle font-2 mb-2">
+                            Download Our App
+                        </h2>
+                        <div class="footer__app--download">
+                            <a href="#" class="footer__app--item">
+                                <img src="./assets/img/download-on-the-app-store-apple-2.png" alt="">
+                            </a>
+    
+                            <a href="#" class="footer__app--item">
+                                <img src="./assets/img/google-play-badge.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+    
+                    <a href="#" class="footer__btn btn-hover-scale btn-click br-20 bg-white">
+                        <img src="./assets/img/arrow-up.png" alt="">
+                    </a>
+                </div>
+            </div> 
+
+            <p class="fs-16 text-center">© 2020. All rights reserved.</p>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
